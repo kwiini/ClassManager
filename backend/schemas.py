@@ -10,4 +10,4 @@ class CourseCreate(CourseBase):
 
 class CourseOut(CourseBase):
     class Config:
-        from_attributes = True
+        orm_mode = True
